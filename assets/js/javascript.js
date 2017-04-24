@@ -232,7 +232,7 @@ var arr =
   }
 ]
 var arr = arr.forEach(function(element){
-  document.write("<div>" + "<b> name: </b>"+ element.name + "<b> address: </b>" + element.address + "<b> street: </b>" + element.address.street + "</div>")
+  document.write("<div>" + "<b> Name: </b>"+ element.name + " " + "<b> Address </b>" + " " + "<b> Street: </b>" + element.address.street + " " + "<b> Suite: </b>" + element.address.suite + " " +"<b> City: </b>" + element.address.city + "</div>")
 });
 
 
